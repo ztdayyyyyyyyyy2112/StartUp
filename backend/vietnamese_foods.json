@@ -1,0 +1,458 @@
+[
+  {
+    "name_vi": "Phở bò tái", "name_en": "Beef Pho (rare)",
+    "slug": "pho-bo-tai", "category": "soup", "cuisine": "vietnamese", "region": "north",
+    "serving_size_g": 500, "calories": 380, "protein_g": 22, "carb_g": 48, "fat_g": 9,
+    "fiber_g": 1.5, "sugar_g": 3, "sodium_mg": 980,
+    "allergens": ["gluten"], "meal_time": ["breakfast", "lunch", "dinner"],
+    "description": "Phở bò Hà Nội truyền thống với bánh phở, thịt bò tái và nước dùng trong."
+  },
+  {
+    "name_vi": "Phở gà", "name_en": "Chicken Pho",
+    "slug": "pho-ga", "category": "soup", "cuisine": "vietnamese", "region": "north",
+    "serving_size_g": 480, "calories": 320, "protein_g": 24, "carb_g": 40, "fat_g": 6,
+    "fiber_g": 1.2, "sugar_g": 2.5, "sodium_mg": 850,
+    "allergens": ["gluten"], "meal_time": ["breakfast", "lunch"],
+    "description": "Phở gà nhẹ nhàng, thanh đậm vị với thịt gà ta."
+  },
+  {
+    "name_vi": "Bún bò Huế", "name_en": "Hue Spicy Beef Noodle Soup",
+    "slug": "bun-bo-hue", "category": "soup", "cuisine": "vietnamese", "region": "central",
+    "serving_size_g": 550, "calories": 450, "protein_g": 28, "carb_g": 52, "fat_g": 14,
+    "fiber_g": 2, "sugar_g": 4, "sodium_mg": 1200,
+    "allergens": ["gluten", "shellfish"], "meal_time": ["breakfast", "lunch", "dinner"],
+    "description": "Đặc sản Huế cay nồng với bún, thịt bò, giò heo và sả."
+  },
+  {
+    "name_vi": "Bún riêu cua", "name_en": "Crab Noodle Soup",
+    "slug": "bun-rieu-cua", "category": "soup", "cuisine": "vietnamese", "region": "north",
+    "serving_size_g": 500, "calories": 360, "protein_g": 20, "carb_g": 45, "fat_g": 11,
+    "fiber_g": 2.5, "sugar_g": 5, "sodium_mg": 900,
+    "allergens": ["shellfish", "gluten"], "meal_time": ["breakfast", "lunch"],
+    "description": "Bún riêu đặc trưng với gạch cua, cà chua và đậu phụ."
+  },
+  {
+    "name_vi": "Bánh mì thịt nguội", "name_en": "Vietnamese Sandwich with Cold Cuts",
+    "slug": "banh-mi-thit-nguoi", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 420, "protein_g": 18, "carb_g": 48, "fat_g": 16,
+    "fiber_g": 2, "sugar_g": 4, "sodium_mg": 780,
+    "allergens": ["gluten", "dairy"], "meal_time": ["breakfast", "snack"],
+    "description": "Bánh mì Việt Nam với pate, chả lụa, dưa leo và rau thơm."
+  },
+  {
+    "name_vi": "Bánh mì trứng", "name_en": "Egg Bánh mì",
+    "slug": "banh-mi-trung", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 180, "calories": 310, "protein_g": 14, "carb_g": 42, "fat_g": 10,
+    "fiber_g": 1.5, "sugar_g": 3, "sodium_mg": 620,
+    "allergens": ["gluten", "eggs"], "meal_time": ["breakfast", "snack"],
+    "description": "Bánh mì ốp la giòn với trứng chiên và nước tương."
+  },
+  {
+    "name_vi": "Cơm tấm sườn bì", "name_en": "Broken Rice with Grilled Pork Ribs",
+    "slug": "com-tam-suon-bi", "category": "main", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 400, "calories": 620, "protein_g": 32, "carb_g": 72, "fat_g": 20,
+    "fiber_g": 2, "sugar_g": 6, "sodium_mg": 850,
+    "allergens": ["gluten"], "meal_time": ["lunch", "dinner"],
+    "description": "Cơm tấm miền Nam với sườn nướng, bì, chả, cà chua và dưa cải."
+  },
+  {
+    "name_vi": "Cơm chiên dương châu", "name_en": "Yangzhou Fried Rice",
+    "slug": "com-chien-duong-chau", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 350, "calories": 520, "protein_g": 18, "carb_g": 70, "fat_g": 18,
+    "fiber_g": 2, "sugar_g": 2, "sodium_mg": 900,
+    "allergens": ["eggs", "shellfish"], "meal_time": ["lunch", "dinner"],
+    "description": "Cơm chiên với tôm, trứng, lạp xưởng và rau củ."
+  },
+  {
+    "name_vi": "Cơm gà Hải Nam", "name_en": "Hainanese Chicken Rice",
+    "slug": "com-ga-hai-nam", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 380, "calories": 490, "protein_g": 30, "carb_g": 60, "fat_g": 12,
+    "fiber_g": 1.5, "sugar_g": 2, "sodium_mg": 700,
+    "allergens": ["gluten"], "meal_time": ["lunch", "dinner"],
+    "description": "Cơm gà luộc mềm mịn với nước chấm gừng và cải xanh."
+  },
+  {
+    "name_vi": "Bún chả Hà Nội", "name_en": "Grilled Pork with Rice Noodles",
+    "slug": "bun-cha-ha-noi", "category": "main", "cuisine": "vietnamese", "region": "north",
+    "serving_size_g": 450, "calories": 480, "protein_g": 26, "carb_g": 55, "fat_g": 16,
+    "fiber_g": 2.5, "sugar_g": 8, "sodium_mg": 820,
+    "allergens": ["gluten", "fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Bún chả Hà Nội với thịt nướng than, nước chấm và rau sống."
+  },
+  {
+    "name_vi": "Bún thịt nướng", "name_en": "Grilled Pork Noodle Bowl",
+    "slug": "bun-thit-nuong", "category": "main", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 400, "calories": 440, "protein_g": 24, "carb_g": 52, "fat_g": 14,
+    "fiber_g": 3, "sugar_g": 6, "sodium_mg": 750,
+    "allergens": ["gluten", "fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Bún với thịt heo nướng, đồ chua, đậu phụ và mắm nêm."
+  },
+  {
+    "name_vi": "Mì quảng", "name_en": "Quang Noodles",
+    "slug": "mi-quang", "category": "main", "cuisine": "vietnamese", "region": "central",
+    "serving_size_g": 450, "calories": 410, "protein_g": 22, "carb_g": 55, "fat_g": 11,
+    "fiber_g": 3, "sugar_g": 4, "sodium_mg": 750,
+    "allergens": ["gluten", "shellfish"], "meal_time": ["breakfast", "lunch", "dinner"],
+    "description": "Mì Quảng đặc trưng với tôm, thịt heo, rau sống và bánh đa."
+  },
+  {
+    "name_vi": "Cao lầu Hội An", "name_en": "Hoi An Cao Lau",
+    "slug": "cao-lau-hoi-an", "category": "main", "cuisine": "vietnamese", "region": "central",
+    "serving_size_g": 380, "calories": 420, "protein_g": 20, "carb_g": 58, "fat_g": 12,
+    "fiber_g": 2.5, "sugar_g": 3, "sodium_mg": 800,
+    "allergens": ["gluten", "soy"], "meal_time": ["breakfast", "lunch"],
+    "description": "Đặc sản Hội An với sợi mì dày, thịt xá xíu và rau sống."
+  },
+  {
+    "name_vi": "Gỏi cuốn tôm thịt", "name_en": "Fresh Spring Rolls",
+    "slug": "goi-cuon-tom-thit", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 210, "protein_g": 14, "carb_g": 28, "fat_g": 5,
+    "fiber_g": 2, "sugar_g": 3, "sodium_mg": 380,
+    "allergens": ["shellfish", "fish"], "meal_time": ["snack", "lunch"],
+    "description": "Gỏi cuốn tươi với tôm, thịt luộc, rau sống và bún."
+  },
+  {
+    "name_vi": "Chả giò chiên", "name_en": "Fried Spring Rolls",
+    "slug": "cha-gio-chien", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 150, "calories": 320, "protein_g": 12, "carb_g": 30, "fat_g": 18,
+    "fiber_g": 1.5, "sugar_g": 2, "sodium_mg": 480,
+    "allergens": ["gluten", "eggs"], "meal_time": ["snack", "lunch", "dinner"],
+    "description": "Chả giò giòn rụm với nhân thịt heo, miến và mộc nhĩ."
+  },
+  {
+    "name_vi": "Bánh xèo", "name_en": "Sizzling Crepe",
+    "slug": "banh-xeo", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 300, "calories": 380, "protein_g": 16, "carb_g": 42, "fat_g": 16,
+    "fiber_g": 3, "sugar_g": 3, "sodium_mg": 620,
+    "allergens": ["shellfish", "dairy"], "meal_time": ["lunch", "dinner"],
+    "description": "Bánh xèo giòn vàng nhân tôm thịt, giá đỗ ăn kèm rau sống."
+  },
+  {
+    "name_vi": "Cá kho tộ", "name_en": "Braised Fish in Clay Pot",
+    "slug": "ca-kho-to", "category": "main", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 200, "calories": 290, "protein_g": 28, "carb_g": 8, "fat_g": 15,
+    "fiber_g": 0.5, "sugar_g": 5, "sodium_mg": 1100,
+    "allergens": ["fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Cá kho tộ đậm đà với nước cốt dừa, tiêu và ớt."
+  },
+  {
+    "name_vi": "Thịt kho trứng", "name_en": "Braised Pork with Eggs",
+    "slug": "thit-kho-trung", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 250, "calories": 380, "protein_g": 24, "carb_g": 10, "fat_g": 26,
+    "fiber_g": 0, "sugar_g": 6, "sodium_mg": 950,
+    "allergens": ["eggs"], "meal_time": ["lunch", "dinner"],
+    "description": "Thịt kho tàu miền Nam với trứng vịt trong nước cốt dừa."
+  },
+  {
+    "name_vi": "Canh chua cá", "name_en": "Sour Fish Soup",
+    "slug": "canh-chua-ca", "category": "soup", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 400, "calories": 180, "protein_g": 18, "carb_g": 15, "fat_g": 5,
+    "fiber_g": 3, "sugar_g": 6, "sodium_mg": 720,
+    "allergens": ["fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Canh chua miền Nam với cá lóc, khóm, cà chua và rau muống."
+  },
+  {
+    "name_vi": "Canh khổ qua nhồi thịt", "name_en": "Stuffed Bitter Melon Soup",
+    "slug": "canh-kho-qua-nhoi-thit", "category": "soup", "cuisine": "vietnamese",
+    "serving_size_g": 350, "calories": 160, "protein_g": 14, "carb_g": 12, "fat_g": 6,
+    "fiber_g": 2.5, "sugar_g": 4, "sodium_mg": 650,
+    "allergens": [], "meal_time": ["lunch", "dinner"],
+    "description": "Canh khổ qua nhồi thịt heo xay thanh mát, bổ dưỡng."
+  },
+  {
+    "name_vi": "Rau muống xào tỏi", "name_en": "Stir-fried Water Spinach with Garlic",
+    "slug": "rau-muong-xao-toi", "category": "side", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 120, "protein_g": 3, "carb_g": 10, "fat_g": 7,
+    "fiber_g": 4, "sugar_g": 2, "sodium_mg": 480,
+    "allergens": [], "meal_time": ["lunch", "dinner"],
+    "description": "Rau muống xào giòn với tỏi phi thơm."
+  },
+  {
+    "name_vi": "Đậu phụ sốt cà chua", "name_en": "Tofu in Tomato Sauce",
+    "slug": "dau-phu-sot-ca-chua", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 250, "calories": 190, "protein_g": 12, "carb_g": 14, "fat_g": 10,
+    "fiber_g": 2, "sugar_g": 5, "sodium_mg": 580,
+    "allergens": ["soy"], "meal_time": ["lunch", "dinner"],
+    "description": "Đậu phụ chiên sốt cà chua ngọt chua cho người ăn chay."
+  },
+  {
+    "name_vi": "Trứng chiên cà chua", "name_en": "Tomato Egg Stir-fry",
+    "slug": "trung-chien-ca-chua", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 220, "protein_g": 14, "carb_g": 10, "fat_g": 14,
+    "fiber_g": 1.5, "sugar_g": 5, "sodium_mg": 450,
+    "allergens": ["eggs"], "meal_time": ["lunch", "dinner"],
+    "description": "Trứng chiên vàng với cà chua tươi, món ăn nhanh và ngon."
+  },
+  {
+    "name_vi": "Gà xào sả ớt", "name_en": "Lemongrass Chili Chicken",
+    "slug": "ga-xao-sa-ot", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 250, "calories": 310, "protein_g": 30, "carb_g": 8, "fat_g": 16,
+    "fiber_g": 1, "sugar_g": 3, "sodium_mg": 720,
+    "allergens": [], "meal_time": ["lunch", "dinner"],
+    "description": "Gà xào sả ớt thơm nồng, phù hợp tăng cơ."
+  },
+  {
+    "name_vi": "Bò xào rau cần", "name_en": "Beef Stir-fried with Chinese Celery",
+    "slug": "bo-xao-rau-can", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 250, "calories": 280, "protein_g": 26, "carb_g": 10, "fat_g": 14,
+    "fiber_g": 2.5, "sugar_g": 3, "sodium_mg": 680,
+    "allergens": ["soy"], "meal_time": ["lunch", "dinner"],
+    "description": "Thịt bò xào rau cần giòn, bổ sắt và protein."
+  },
+  {
+    "name_vi": "Tôm rang muối", "name_en": "Salt & Pepper Shrimp",
+    "slug": "tom-rang-muoi", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 220, "protein_g": 24, "carb_g": 5, "fat_g": 11,
+    "fiber_g": 0.5, "sugar_g": 1, "sodium_mg": 880,
+    "allergens": ["shellfish"], "meal_time": ["lunch", "dinner"],
+    "description": "Tôm rang muối giòn rụm với tỏi và ớt."
+  },
+  {
+    "name_vi": "Hủ tiếu Nam Vang", "name_en": "Phnom Penh Noodle Soup",
+    "slug": "hu-tieu-nam-vang", "category": "soup", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 500, "calories": 420, "protein_g": 24, "carb_g": 52, "fat_g": 12,
+    "fiber_g": 1.5, "sugar_g": 4, "sodium_mg": 1050,
+    "allergens": ["shellfish", "gluten", "fish"], "meal_time": ["breakfast", "lunch"],
+    "description": "Hủ tiếu Nam Vang với thịt heo, gan, tôm và trứng cút."
+  },
+  {
+    "name_vi": "Bánh canh cua", "name_en": "Crab Thick Noodle Soup",
+    "slug": "banh-canh-cua", "category": "soup", "cuisine": "vietnamese",
+    "serving_size_g": 500, "calories": 390, "protein_g": 22, "carb_g": 50, "fat_g": 11,
+    "fiber_g": 1.5, "sugar_g": 4, "sodium_mg": 900,
+    "allergens": ["shellfish"], "meal_time": ["breakfast", "lunch"],
+    "description": "Bánh canh sợi to với cua biển, chả cá và hành lá."
+  },
+  {
+    "name_vi": "Xôi gà", "name_en": "Sticky Rice with Chicken",
+    "slug": "xoi-ga", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 300, "calories": 450, "protein_g": 22, "carb_g": 72, "fat_g": 9,
+    "fiber_g": 1, "sugar_g": 2, "sodium_mg": 550,
+    "allergens": ["soy"], "meal_time": ["breakfast", "snack"],
+    "description": "Xôi trắng dẻo với gà xé phay, hành phi và nước mắm."
+  },
+  {
+    "name_vi": "Xôi xéo", "name_en": "Mung Bean Sticky Rice",
+    "slug": "xoi-xeo", "category": "main", "cuisine": "vietnamese", "region": "north",
+    "serving_size_g": 250, "calories": 380, "protein_g": 8, "carb_g": 72, "fat_g": 8,
+    "fiber_g": 2, "sugar_g": 1, "sodium_mg": 300,
+    "allergens": [], "meal_time": ["breakfast", "snack"],
+    "description": "Xôi xéo miền Bắc với đậu xanh, mỡ hành và nước mắm."
+  },
+  {
+    "name_vi": "Bánh cuốn", "name_en": "Steamed Rice Rolls",
+    "slug": "banh-cuon", "category": "main", "cuisine": "vietnamese", "region": "north",
+    "serving_size_g": 300, "calories": 280, "protein_g": 14, "carb_g": 40, "fat_g": 8,
+    "fiber_g": 1, "sugar_g": 3, "sodium_mg": 680,
+    "allergens": ["gluten", "fish"], "meal_time": ["breakfast"],
+    "description": "Bánh cuốn Hà Nội mỏng mịn nhân thịt heo xào mộc nhĩ."
+  },
+  {
+    "name_vi": "Bánh ướt", "name_en": "Wet Rice Sheet",
+    "slug": "banh-uot", "category": "main", "cuisine": "vietnamese", "region": "central",
+    "serving_size_g": 250, "calories": 220, "protein_g": 8, "carb_g": 38, "fat_g": 5,
+    "fiber_g": 0.5, "sugar_g": 2, "sodium_mg": 520,
+    "allergens": ["fish"], "meal_time": ["breakfast"],
+    "description": "Bánh ướt mềm mịn với chả lụa, tôm khô và nước chấm."
+  },
+  {
+    "name_vi": "Nem cuốn", "name_en": "Fresh Herb Rolls",
+    "slug": "nem-cuon", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 180, "calories": 190, "protein_g": 12, "carb_g": 26, "fat_g": 5,
+    "fiber_g": 3, "sugar_g": 2, "sodium_mg": 350,
+    "allergens": ["shellfish", "fish"], "meal_time": ["snack", "lunch"],
+    "description": "Nem cuốn tươi với tôm, thịt, rau thơm và bún."
+  },
+  {
+    "name_vi": "Bánh tráng nướng", "name_en": "Grilled Rice Paper",
+    "slug": "banh-trang-nuong", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 120, "calories": 280, "protein_g": 8, "carb_g": 35, "fat_g": 12,
+    "fiber_g": 1, "sugar_g": 3, "sodium_mg": 500,
+    "allergens": ["eggs", "gluten"], "meal_time": ["snack"],
+    "description": "Bánh tráng nướng trứng, hành lá và tôm khô giòn thơm."
+  },
+  {
+    "name_vi": "Chè đậu xanh", "name_en": "Mung Bean Sweet Soup",
+    "slug": "che-dau-xanh", "category": "dessert", "cuisine": "vietnamese",
+    "serving_size_g": 250, "calories": 200, "protein_g": 5, "carb_g": 40, "fat_g": 3,
+    "fiber_g": 4, "sugar_g": 22, "sodium_mg": 50,
+    "allergens": [], "meal_time": ["snack", "dinner"],
+    "description": "Chè đậu xanh ngọt mát, bổ dưỡng với nước cốt dừa."
+  },
+  {
+    "name_vi": "Chè bà ba", "name_en": "Mixed Sweet Soup",
+    "slug": "che-ba-ba", "category": "dessert", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 300, "calories": 240, "protein_g": 3, "carb_g": 48, "fat_g": 5,
+    "fiber_g": 3, "sugar_g": 28, "sodium_mg": 60,
+    "allergens": [], "meal_time": ["snack", "dessert"],
+    "description": "Chè bà ba miền Nam với khoai, chuối, đậu phộng và nước cốt dừa."
+  },
+  {
+    "name_vi": "Sinh tố bơ", "name_en": "Avocado Smoothie",
+    "slug": "sinh-to-bo", "category": "drink", "cuisine": "vietnamese",
+    "serving_size_g": 300, "calories": 310, "protein_g": 4, "carb_g": 28, "fat_g": 20,
+    "fiber_g": 7, "sugar_g": 18, "sodium_mg": 40,
+    "allergens": ["dairy"], "meal_time": ["breakfast", "snack"],
+    "description": "Sinh tố bơ béo ngậy với sữa đặc và đá."
+  },
+  {
+    "name_vi": "Sinh tố dâu", "name_en": "Strawberry Smoothie",
+    "slug": "sinh-to-dau", "category": "drink", "cuisine": "vietnamese",
+    "serving_size_g": 300, "calories": 180, "protein_g": 3, "carb_g": 36, "fat_g": 3,
+    "fiber_g": 3, "sugar_g": 28, "sodium_mg": 30,
+    "allergens": ["dairy"], "meal_time": ["breakfast", "snack"],
+    "description": "Sinh tố dâu tây tươi với sữa và đường."
+  },
+  {
+    "name_vi": "Cà phê sữa đá", "name_en": "Vietnamese Iced Coffee with Milk",
+    "slug": "ca-phe-sua-da", "category": "drink", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 120, "protein_g": 2, "carb_g": 20, "fat_g": 3,
+    "fiber_g": 0, "sugar_g": 18, "sodium_mg": 40,
+    "allergens": ["dairy"], "meal_time": ["breakfast", "snack"],
+    "description": "Cà phê Việt đặc sánh với sữa đặc và đá bào."
+  },
+  {
+    "name_vi": "Trà sữa trân châu", "name_en": "Bubble Milk Tea",
+    "slug": "tra-sua-tran-chau", "category": "drink", "cuisine": "vietnamese",
+    "serving_size_g": 500, "calories": 350, "protein_g": 4, "carb_g": 68, "fat_g": 7,
+    "fiber_g": 0, "sugar_g": 52, "sodium_mg": 80,
+    "allergens": ["dairy", "gluten"], "meal_time": ["snack"],
+    "description": "Trà sữa với trân châu đường đen và kem phô mai."
+  },
+  {
+    "name_vi": "Gỏi ngó sen", "name_en": "Lotus Stem Salad",
+    "slug": "goi-ngo-sen", "category": "side", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 150, "protein_g": 10, "carb_g": 18, "fat_g": 5,
+    "fiber_g": 4, "sugar_g": 6, "sodium_mg": 520,
+    "allergens": ["shellfish", "fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Gỏi ngó sen giòn với tôm, thịt gà, rau thơm và đậu phộng."
+  },
+  {
+    "name_vi": "Gỏi bắp cải tôm", "name_en": "Cabbage Shrimp Salad",
+    "slug": "goi-bap-cai-tom", "category": "side", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 170, "protein_g": 12, "carb_g": 16, "fat_g": 6,
+    "fiber_g": 3, "sugar_g": 5, "sodium_mg": 480,
+    "allergens": ["shellfish", "fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Gỏi bắp cải tươi với tôm luộc, cà rốt và rau thơm."
+  },
+  {
+    "name_vi": "Bánh mì chả cá", "name_en": "Fish Cake Sandwich",
+    "slug": "banh-mi-cha-ca", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 350, "protein_g": 16, "carb_g": 44, "fat_g": 12,
+    "fiber_g": 2, "sugar_g": 3, "sodium_mg": 720,
+    "allergens": ["gluten", "fish"], "meal_time": ["breakfast", "snack"],
+    "description": "Bánh mì giòn với chả cá, dưa leo và ớt tươi."
+  },
+  {
+    "name_vi": "Lẩu thái hải sản", "name_en": "Thai Seafood Hot Pot",
+    "slug": "lau-thai-hai-san", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 600, "calories": 520, "protein_g": 36, "carb_g": 40, "fat_g": 20,
+    "fiber_g": 4, "sugar_g": 8, "sodium_mg": 1400,
+    "allergens": ["shellfish", "fish", "gluten"], "meal_time": ["dinner"],
+    "description": "Lẩu Thái chua cay với tôm, mực, nghêu và rau sống."
+  },
+  {
+    "name_vi": "Lẩu bò nhúng dấm", "name_en": "Beef Hot Pot with Vinegar Broth",
+    "slug": "lau-bo-nhung-dam", "category": "main", "cuisine": "vietnamese", "region": "south",
+    "serving_size_g": 500, "calories": 480, "protein_g": 34, "carb_g": 38, "fat_g": 18,
+    "fiber_g": 3, "sugar_g": 5, "sodium_mg": 900,
+    "allergens": ["gluten", "fish"], "meal_time": ["dinner"],
+    "description": "Lẩu bò nhúng giấm với rau sống, bánh tráng và mắm nêm."
+  },
+  {
+    "name_vi": "Bánh bao nhân thịt", "name_en": "Steamed Pork Bun",
+    "slug": "banh-bao-nhan-thit", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 120, "calories": 280, "protein_g": 12, "carb_g": 38, "fat_g": 8,
+    "fiber_g": 1, "sugar_g": 5, "sodium_mg": 480,
+    "allergens": ["gluten", "eggs"], "meal_time": ["breakfast", "snack"],
+    "description": "Bánh bao xốp mềm nhân thịt heo, trứng cút và nấm."
+  },
+  {
+    "name_vi": "Chè khúc bạch", "name_en": "White Jelly Sweet Soup",
+    "slug": "che-khuc-bach", "category": "dessert", "cuisine": "vietnamese",
+    "serving_size_g": 300, "calories": 220, "protein_g": 4, "carb_g": 42, "fat_g": 5,
+    "fiber_g": 0.5, "sugar_g": 30, "sodium_mg": 35,
+    "allergens": ["dairy"], "meal_time": ["snack", "dessert"],
+    "description": "Chè khúc bạch mát lạnh với thạch sữa, hạnh nhân và nước đường."
+  },
+  {
+    "name_vi": "Cháo trắng", "name_en": "Plain Rice Porridge",
+    "slug": "chao-trang", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 400, "calories": 180, "protein_g": 4, "carb_g": 38, "fat_g": 1,
+    "fiber_g": 0.5, "sugar_g": 1, "sodium_mg": 200,
+    "allergens": [], "meal_time": ["breakfast"],
+    "description": "Cháo trắng mềm mịn, dễ tiêu, thích hợp ăn sáng hoặc khi bệnh."
+  },
+  {
+    "name_vi": "Cháo gà", "name_en": "Chicken Rice Porridge",
+    "slug": "chao-ga", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 450, "calories": 280, "protein_g": 18, "carb_g": 38, "fat_g": 6,
+    "fiber_g": 0.5, "sugar_g": 2, "sodium_mg": 650,
+    "allergens": ["gluten"], "meal_time": ["breakfast", "dinner"],
+    "description": "Cháo gà bổ dưỡng với gừng, hành lá và tiêu."
+  },
+  {
+    "name_vi": "Khoai lang nướng", "name_en": "Baked Sweet Potato",
+    "slug": "khoai-lang-nuong", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 180, "protein_g": 3, "carb_g": 42, "fat_g": 0.5,
+    "fiber_g": 5, "sugar_g": 14, "sodium_mg": 55,
+    "allergens": [], "meal_time": ["snack", "breakfast"],
+    "description": "Khoai lang nướng vàng thơm, nhiều chất xơ và vitamin A."
+  },
+  {
+    "name_vi": "Trứng luộc", "name_en": "Boiled Egg",
+    "slug": "trung-luoc", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 60, "calories": 78, "protein_g": 6, "carb_g": 0.6, "fat_g": 5,
+    "fiber_g": 0, "sugar_g": 0.5, "sodium_mg": 62,
+    "allergens": ["eggs"], "meal_time": ["breakfast", "snack"],
+    "description": "Trứng luộc đơn giản, nguồn protein và choline tuyệt vời."
+  },
+  {
+    "name_vi": "Sữa chua không đường", "name_en": "Plain Yogurt",
+    "slug": "sua-chua-khong-duong", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 200, "calories": 120, "protein_g": 10, "carb_g": 14, "fat_g": 3,
+    "fiber_g": 0, "sugar_g": 12, "sodium_mg": 80,
+    "allergens": ["dairy"], "meal_time": ["breakfast", "snack"],
+    "description": "Sữa chua nguyên chất giàu probiotics tốt cho đường tiêu hoá."
+  },
+  {
+    "name_vi": "Yến mạch sữa hạnh nhân", "name_en": "Oatmeal with Almond Milk",
+    "slug": "yen-mach-sua-hanh-nhan", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 300, "calories": 280, "protein_g": 8, "carb_g": 48, "fat_g": 7,
+    "fiber_g": 6, "sugar_g": 10, "sodium_mg": 120,
+    "allergens": ["nuts", "gluten"], "meal_time": ["breakfast"],
+    "description": "Yến mạch nấu sữa hạnh nhân với chuối và hạt chia."
+  },
+  {
+    "name_vi": "Chuối", "name_en": "Banana",
+    "slug": "chuoi", "category": "snack", "cuisine": "vietnamese",
+    "serving_size_g": 120, "calories": 107, "protein_g": 1.3, "carb_g": 27, "fat_g": 0.4,
+    "fiber_g": 3.1, "sugar_g": 14, "sodium_mg": 1,
+    "allergens": [], "meal_time": ["breakfast", "snack"],
+    "description": "Chuối tươi giàu kali và năng lượng nhanh, tốt trước và sau tập gym."
+  },
+  {
+    "name_vi": "Ức gà luộc", "name_en": "Boiled Chicken Breast",
+    "slug": "uc-ga-luoc", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 150, "calories": 165, "protein_g": 31, "carb_g": 0, "fat_g": 3.6,
+    "fiber_g": 0, "sugar_g": 0, "sodium_mg": 74,
+    "allergens": [], "meal_time": ["lunch", "dinner"],
+    "description": "Ức gà luộc thuần khiết, nguồn protein nạc lý tưởng cho gym."
+  },
+  {
+    "name_vi": "Cá hồi áp chảo", "name_en": "Pan-seared Salmon",
+    "slug": "ca-hoi-ap-chao", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 180, "calories": 310, "protein_g": 34, "carb_g": 0, "fat_g": 18,
+    "fiber_g": 0, "sugar_g": 0, "sodium_mg": 280,
+    "allergens": ["fish"], "meal_time": ["lunch", "dinner"],
+    "description": "Cá hồi áp chảo giàu omega-3, protein và vitamin D."
+  },
+  {
+    "name_vi": "Đậu hũ non sốt nấm", "name_en": "Silken Tofu with Mushroom Sauce",
+    "slug": "dau-hu-non-sot-nam", "category": "main", "cuisine": "vietnamese",
+    "serving_size_g": 250, "calories": 160, "protein_g": 10, "carb_g": 14, "fat_g": 7,
+    "fiber_g": 2, "sugar_g": 4, "sodium_mg": 520,
+    "allergens": ["soy", "gluten"], "meal_time": ["lunch", "dinner"],
+    "description": "Đậu hũ non mịn với sốt nấm shiitake và dầu mè, phù hợp ăn chay."
+  }
+]

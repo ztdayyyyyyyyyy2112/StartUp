@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+/* Copy các biến từ Landing.module.css sang đây để dùng global */
+:root {
+  --g50:  #f8fafc; --g400: #0f172a; --g500: #0284c7;
+  --t400: #0ea5e9; --t500: #0369a1;
+  --l400: #38bdf8;
+  --bg:      #ffffff;
+  --bg2:     #f1f5f9;
+  --t1: #0f172a;
+  --t2: #475569;
+  --accent: #0284c7;
+  --ff-display: 'Roboto', sans-serif;
+  --ff-body:    'Roboto', sans-serif;
+  --ease: cubic-bezier(.4,0,.2,1);
+  --rx: 8px;
+  --container-max: 1200px;
+  --p-main: clamp(1.5rem, 5vw, 3rem);
+  --p-section: clamp(4rem, 10vh, 8rem);
+  --border2: #e2e8f0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--t1);
+  margin: 0;
+  font-family: var(--ff-body);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Utilities dùng chung cho demo */
+.grad-text {
+  background: linear-gradient(135deg, var(--g400), var(--t400), var(--l400));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--g500), var(--t500));
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--rx);
+}
