@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NutriAI - Hệ sinh thái Dinh dưỡng & Sức khỏe Cá nhân hóa
 
 Dự án hiện tại đang ở giai đoạn **High-Fidelity Prototype** (Giao diện hoàn thiện, Logic giả lập). Để chuyển đổi sang sản phẩm thực tế (Production) hoạt động với dữ liệu thật và thiết bị đeo, dưới đây là danh sách nhiệm vụ (Task List) chi tiết cho từng team.
@@ -94,3 +95,6 @@ npm run dev
 ---
 
 **© 2029 NutriAI Project - Internal Use Only**
+=======
+# StartUp
+>>>>>>> 8d1045011a0aa4df11e05474c322ef3ae4fbbae9
